@@ -1,0 +1,262 @@
+name,slug,iso_code,region,population,area_sq_km,latitude,longitude,category
+Afghanistan,afghanistan,AF,South Asia,49474805,652230,33.0,65.0,country
+Akrotiri,akrotiri,XX,Europe,,123,34.6166667,32.9666667,country
+Albania,albania,AL,Europe,2551837,28748,41.0,20.0,country
+Algeria,algeria,DZ,Africa,47735685,2381740,28.0,3.0,country
+American Samoa,american-samoa,AS,Australia-Oceania,43268,224,-14.3333333,-170.0,country
+Andorra,andorra,AD,Europe,85370,468,42.5,1.5,country
+Angola,angola,AO,Africa,38984796,1246700,-12.5,18.5,country
+Anguilla,anguilla,AI,Central America and Caribbean,19416,91,18.25,-63.1666667,country
+Antarctica,antarctica,AQ,Antarctica,,,-90.0,0.0,territory
+Antigua and Barbuda,antigua-and-barbuda,AG,Central America and Caribbean,102634,443,17.05,-61.8,country
+Arctic Ocean,arctic-ocean,XX,Oceans,,,90.0,0.0,ocean
+Argentina,argentina,AR,South America,45418098,2780400,-34.0,-64.0,country
+Armenia,armenia,AM,Middle East,2963837,29743,40.0,45.0,country
+Aruba,aruba,AW,Central America and Caribbean,125063,180,12.5,-69.9666667,country
+Ashmore and Cartier Islands,ashmore-and-cartier-islands,AU,Australia-Oceania,,5,-12.4166667,123.3333333,country
+Atlantic Ocean,atlantic-ocean,XX,Oceans,,,0.0,-25.0,ocean
+Australia,australia,AU,Australia-Oceania,27490921,7741220,-27.0,133.0,country
+Austria,austria,AT,Europe,9174390,83871,47.3333333,13.3333333,country
+Azerbaijan,azerbaijan,AZ,Middle East,10694370,86600,40.5,47.5,country
+Bahrain,bahrain,BH,Middle East,1566888,760,26.0,50.55,country
+"Baker Island, Howland Island, Jarvis Island, Johnston Atoll, Kingman Reef, Midway Islands, Palmyra Atoll",baker-island-howland-island-jarvis-island-johnston-atoll-kingman-reef-midway-islands-palmyra-atoll,UM,Australia-Oceania,,,0.2166667,-176.4666667,country
+Bangladesh,bangladesh,BD,South Asia,174370536,148460,24.0,90.0,country
+Barbados,barbados,BB,Central America and Caribbean,304139,430,13.1666667,-59.5333333,country
+Belarus,belarus,BY,Europe,9460972,207600,53.0,28.0,country
+Belgium,belgium,BE,Europe,11960170,30528,50.8333333,4.0,country
+Belize,belize,BZ,Central America and Caribbean,421960,22966,17.25,-88.75,country
+Benin,benin,BJ,Africa,15186090,112622,9.5,2.25,country
+Bermuda,bermuda,BM,North America,72800,54,32.3333333,-64.75,country
+Bhutan,bhutan,BT,South Asia,892877,38394,27.5,90.5,country
+Bolivia,bolivia,BO,South America,12436103,1098581,-17.0,-65.0,country
+Bosnia and Herzegovina,bosnia-and-herzegovina,BA,Europe,3653499,51197,44.0,18.0,country
+Botswana,botswana,BW,Africa,2521534,581730,-22.0,24.0,country
+Bouvet Island,bouvet-island,BV,Antarctica,,49,-54.4333333,3.4,territory
+Brazil,brazil,BR,South America,221359387,8515770,-10.0,-55.0,country
+British Indian Ocean Territory,british-indian-ocean-territory,IO,South Asia,,60,-6.0,71.5,country
+British Virgin Islands,british-virgin-islands,VG,Central America and Caribbean,40102,151,18.5,-64.5,country
+Brunei,brunei,BN,East and Southeast Asia,491900,5765,4.5,114.6666667,country
+Bulgaria,bulgaria,BG,Europe,6737997,110879,43.0,25.0,country
+Burkina Faso,burkina-faso,BF,Africa,23490300,274200,13.0,-2.0,country
+Burma,burma,MM,East and Southeast Asia,57931718,676578,22.0,98.0,country
+Burundi,burundi,BI,Africa,13590102,27830,-3.5,30.0,country
+Cabo Verde,cabo-verde,CV,Africa,611014,4033,16.0,-24.0,country
+Cambodia,cambodia,KH,East and Southeast Asia,17230333,181035,13.0,105.0,country
+Cameroon,cameroon,CM,Africa,31518954,475440,6.0,12.0,country
+Canada,canada,CA,North America,39187155,9984670,60.0,-95.0,country
+Cayman Islands,cayman-islands,KY,Central America and Caribbean,66653,264,19.5,-80.5,country
+Central African Republic,central-african-republic,CF,Africa,5750570,622984,7.0,21.0,country
+Chad,chad,TD,Africa,19674004,,15.0,19.0,country
+Chile,chile,CL,South America,19091343,756102,-30.0,-71.0,country
+China,china,CN,East and Southeast Asia,1407181209,9596960,35.0,105.0,country
+Christmas Island,christmas-island,CX,Australia-Oceania,1692,135,-10.5,105.6666667,country
+Clipperton Island,clipperton-island,XX,North America,,6,10.2833333,-109.2166667,country
+Cocos (Keeling) Islands,cocos-keeling-islands,CC,Australia-Oceania,593,14,-12.5,96.8333333,country
+Colombia,colombia,CO,South America,49842298,1138910,4.0,-72.0,country
+Comoros,comoros,KM,Africa,911707,2235,-12.1666667,44.25,country
+Congo (Brazzaville),congo-brazzaville,CG,Africa,6097665,342000,-1.0,15.0,country
+Cook Islands,cook-islands,CK,Australia-Oceania,7592,236,-21.2333333,-159.7666667,country
+Coral Sea Islands,coral-sea-islands,AU,Australia-Oceania,,3,-18.0,152.0,country
+Costa Rica,costa-rica,CR,Central America and Caribbean,5304932,51100,10.0,-84.0,country
+Côte d'Ivoire,candocircte-divoire,CI,Africa,31855971,322463,8.0,-5.0,country
+Croatia,croatia,HR,Europe,4071208,56594,45.1666667,15.5,country
+Cuba,cuba,CU,Central America and Caribbean,10059519,110860,21.5,-80.0,country
+Curacao,curacao,CW,Central America and Caribbean,153289,444,12.1666667,-69.0,country
+Cyprus,cyprus,CY,Europe,1332293,9251,35.0,33.0,country
+Czechia,czechia,CZ,Europe,10838703,78867,49.75,15.5,country
+Denmark,denmark,DK,Europe,6051491,43094,56.0,10.0,country
+Dhekelia,dhekelia,XX,Europe,,131,34.9833333,33.75,country
+Djibouti,djibouti,DJ,Africa,1013703,23200,11.5,43.0,country
+Dominica,dominica,DM,Central America and Caribbean,74661,751,15.4166667,-61.3333333,country
+DRC,drc,CD,Africa,119038825,2344858,0.0,25.0,country
+Ecuador,ecuador,EC,South America,18479841,283561,-2.0,-77.5,country
+Egypt,egypt,EG,Africa,112870457,1001450,27.0,30.0,country
+El Salvador,el-salvador,SV,Central America and Caribbean,6334723,21041,13.8333333,-88.9166667,country
+Equatorial Guinea,equatorial-guinea,GQ,Africa,1795834,28051,2.0,10.0,country
+Eritrea,eritrea,ER,Africa,6416435,117600,15.0,39.0,country
+Estonia,estonia,EE,Europe,1340478,45228,59.0,26.0,country
+Eswatini,eswatini,SZ,Africa,1137268,17364,-26.5,31.5,country
+Ethiopia,ethiopia,ET,Africa,121372632,1104300,8.0,38.0,country
+European Union,european-union,XX,Europe,451815312,4236351,,,other
+Falkland Islands (Islas Malvinas),falkland-islands-islas-malvinas,FK,South America,3142,12173,-51.75,-59.0,country
+Faroe Islands,faroe-islands,FO,Europe,52933,1393,62.0,-7.0,country
+Federated States of Micronesia,federated-states-of-micronesia,FM,Australia-Oceania,99603,702,6.9166667,158.25,country
+Fiji,fiji,FJ,Australia-Oceania,951611,18274,-18.0,175.0,country
+Finland,finland,FI,Europe,5550449,338145,64.0,26.0,country
+France,france,FR,Europe,68512806,643801,46.0,2.0,country
+French Polynesia,french-polynesia,PF,Australia-Oceania,305507,4167,-15.0,-140.0,country
+French Southern and Antarctic Lands,french-southern-and-antarctic-lands,TF,Antarctica,,55,-37.8333333,77.5333333,territory
+Gabon,gabon,GA,Africa,2513738,267667,-1.0,11.75,country
+"Gaza, Gaza Strip",gaza-gaza-strip,PS,Middle East,2184652,360,31.4166667,34.3333333,country
+Georgia,georgia,GE,Middle East,4900961,69700,42.0,43.5,country
+Germany,germany,DE,Europe,84012284,357022,51.0,9.0,country
+Ghana,ghana,GH,Africa,35336133,238533,8.0,-2.0,country
+Gibraltar,gibraltar,GI,Europe,29733,7,36.1333333,-5.35,country
+Greece,greece,GR,Europe,10424536,131957,39.0,22.0,country
+Greenland,greenland,GL,North America,57751,2166086,72.0,-40.0,country
+Grenada,grenada,GD,Central America and Caribbean,114621,344,12.1166667,-61.6666667,country
+Guam,guam,GU,Australia-Oceania,169532,544,13.4666667,144.7833333,country
+Guatemala,guatemala,GT,Central America and Caribbean,18255216,108889,15.5,-90.25,country
+Guernsey,guernsey,GG,Europe,67923,78,49.4666667,-2.5833333,country
+Guinea,guinea,GN,Africa,14374590,245857,11.0,-10.0,country
+Guinea-Bissau,guinea-bissau,GW,Africa,2132325,36125,12.0,-15.0,country
+Guyana,guyana,GY,South America,794099,214969,5.0,-59.0,country
+Haiti,haiti,HT,Central America and Caribbean,11898812,27750,19.0,-72.4166667,country
+Heard Island and McDonald Islands,heard-island-and-mcdonald-islands,HM,Antarctica,,412,-53.1,72.5166667,territory
+Holy See (Vatican City),holy-see-vatican-city,VA,Europe,1000,,41.9,12.45,country
+Honduras,honduras,HN,Central America and Caribbean,9529188,112090,15.0,-86.5,country
+Hong Kong,hong-kong,HK,East and Southeast Asia,7305556,1108,22.25,114.1666667,country
+Hungary,hungary,HU,Europe,9855745,93028,47.0,20.0,country
+Iceland,iceland,IS,Europe,364036,103000,65.0,-18.0,country
+India,india,IN,South Asia,1419316933,3287263,20.0,77.0,country
+Indian Ocean,indian-ocean,XX,Oceans,,,-20.0,80.0,ocean
+Indonesia,indonesia,ID,East and Southeast Asia,283587097,1904569,-5.0,120.0,country
+Iran,iran,IR,Middle East,89177357,1648195,32.0,53.0,country
+Iraq,iraq,IQ,Middle East,42917742,438317,33.0,44.0,country
+Ireland,ireland,IE,Europe,5233461,70273,53.0,-8.0,country
+Isle of Man,isle-of-man,IM,Europe,92666,572,54.25,-4.5,country
+Israel,israel,IL,Middle East,9402617,21937,31.5,34.75,country
+Italy,italy,IT,Europe,60924851,301340,42.8333333,12.8333333,country
+Jamaica,jamaica,JM,Central America and Caribbean,2938503,10991,18.25,-77.5,country
+Jan Mayen,jan-mayen,SJ,Europe,,377,71.0,-8.0,country
+Japan,japan,JP,East and Southeast Asia,123201945,377915,36.0,138.0,country
+Jersey,jersey,JE,Europe,103944,116,49.25,-2.1666667,country
+Jordan,jordan,JO,Middle East,11312507,89342,31.0,36.0,country
+Kazakhstan,kazakhstan,KZ,Central Asia,20432662,2724900,48.0,68.0,country
+Kenya,kenya,KE,Africa,55751717,580367,1.0,38.0,country
+Kiribati,kiribati,KI,Australia-Oceania,116545,811,1.4166667,173.0,country
+Kosovo,kosovo,XK,Europe,1977093,10887,42.5833333,21.0,country
+Kuwait,kuwait,KW,Middle East,3172511,17818,29.5,45.75,country
+Kyrgyzstan,kyrgyzstan,KG,Central Asia,6219751,199951,41.0,75.0,country
+Laos,laos,LA,East and Southeast Asia,7953556,236800,18.0,105.0,country
+Latvia,latvia,LV,Europe,1888439,64589,57.0,25.0,country
+Lebanon,lebanon,LB,Middle East,5364482,10400,33.8333333,35.8333333,country
+Lesotho,lesotho,LS,Africa,2222962,30355,-29.5,28.5,country
+Liberia,liberia,LR,Africa,5563541,111369,6.5,-9.5,country
+Libya,libya,LY,Africa,7361263,1759540,25.0,17.0,country
+Liechtenstein,liechtenstein,LI,Europe,40547,160,47.2666667,9.5333333,country
+Lithuania,lithuania,LT,Europe,2815687,65300,56.0,24.0,country
+Luxembourg,luxembourg,LU,Europe,671254,2586,49.75,6.1666667,country
+Macau,macau,MO,East and Southeast Asia,644426,28,22.1666667,113.55,country
+Madagascar,madagascar,MG,Africa,31345040,587041,-20.0,47.0,country
+Malawi,malawi,MW,Africa,21763309,118484,-13.5,34.0,country
+Malaysia,malaysia,MY,East and Southeast Asia,34905275,329847,2.5,112.5,country
+Maldives,maldives,MV,South Asia,388858,298,3.25,73.0,country
+Mali,mali,ML,Africa,22634423,1240192,17.0,-4.0,country
+Malta,malta,MT,Europe,521828,316,35.8333333,14.5833333,country
+Marshall Islands,marshall-islands,MH,Australia-Oceania,82011,181,9.0,168.0,country
+Mauritania,mauritania,MR,Africa,5202109,1030700,20.0,-12.0,country
+Mauritius,mauritius,MU,Africa,1311375,2040,-20.2833333,57.55,country
+Mexico,mexico,MX,North America,130739927,1964375,23.0,-102.0,country
+Moldova,moldova,MD,Europe,3578930,33851,47.0,29.0,country
+Monaco,monaco,MC,Europe,32047,2,43.7333333,7.4,country
+Mongolia,mongolia,MN,East and Southeast Asia,3281676,1564116,46.0,105.0,country
+Montenegro,montenegro,ME,Europe,599849,13812,42.5,19.3,country
+Montserrat,montserrat,MS,Central America and Caribbean,5468,102,16.75,-62.2,country
+Morocco,morocco,MA,Africa,37387585,716550,28.5,-10.0,country
+Mozambique,mozambique,MZ,Africa,34206144,799380,-18.25,35.0,country
+Namibia,namibia,,Africa,2852777,824292,-22.0,17.0,country
+Nauru,nauru,NR,Australia-Oceania,9930,21,-0.5333333,166.9166667,country
+Navassa Island,navassa-island,BQ,Central America and Caribbean,,5,18.4166667,-75.0333333,country
+Nepal,nepal,NP,South Asia,31334402,147181,28.0,84.0,country
+Netherlands,netherlands,NL,Europe,17833885,41543,52.5166667,5.7666667,country
+New Caledonia,new-caledonia,NC,Australia-Oceania,307612,18575,-21.5,165.5,country
+New Zealand,new-zealand,NZ,Australia-Oceania,5161211,268838,-41.0,174.0,country
+Nicaragua,nicaragua,NI,Central America and Caribbean,6739380,130370,13.0,-85.0,country
+Niger,niger,NE,Africa,27322555,,16.0,8.0,country
+Nigeria,nigeria,NG,Africa,244344065,923768,10.0,8.0,country
+Niue,niue,NU,Australia-Oceania,1815,260,-19.0333333,-169.8666667,country
+Norfolk Island,norfolk-island,NF,Australia-Oceania,1739,36,-29.0333333,167.95,country
+Northern Mariana Islands,northern-mariana-islands,MP,Australia-Oceania,51118,464,15.2,145.75,country
+North Korea,north-korea,KP,East and Southeast Asia,26402841,120538,40.0,127.0,country
+North Macedonia,north-macedonia,MK,Europe,2137556,25713,41.8333333,22.0,country
+Norway,norway,NO,Europe,5509733,323802,62.0,10.0,country
+Ocean,ocean,XX,Oceans,,,-60.0,90.0,ocean
+Oman,oman,OM,Middle East,3969824,309500,21.0,57.0,country
+Pacific Ocean,pacific-ocean,XX,Oceans,,,0.0,-160.0,ocean
+Pakistan,pakistan,PK,South Asia,257047044,796095,30.0,70.0,country
+Palau,palau,PW,Australia-Oceania,21947,459,7.5,134.5,country
+Panama,panama,PA,Central America and Caribbean,4536008,75420,9.0,-80.0,country
+Papua New Guinea,papua-new-guinea,PG,East and Southeast Asia,10273996,462840,-6.0,147.0,country
+Paracel Islands,paracel-islands,XX,East and Southeast Asia,2230,8,16.5,112.0,country
+Paraguay,paraguay,PY,South America,7604044,406752,-23.0,-58.0,country
+Peru,peru,PE,South America,32768614,1285216,-10.0,-76.0,country
+Philippines,philippines,PH,East and Southeast Asia,118277063,300000,13.0,122.0,country
+Pitcairn Islands,pitcairn-islands,PN,Australia-Oceania,50,47,-25.0666667,-130.1,country
+Poland,poland,PL,Europe,38746310,312685,52.0,20.0,country
+Portugal,portugal,PT,Europe,10194277,92090,39.5,-8.0,country
+Puerto Rico,puerto-rico,PR,Central America and Caribbean,2984841,9104,18.25,-66.5,country
+Qatar,qatar,QA,Middle East,2568426,11586,25.5,51.25,country
+Romania,romania,RO,Europe,18148155,238391,46.0,25.0,country
+Russia,russia,RU,Central Asia,140134279,17098242,60.0,100.0,country
+Rwanda,rwanda,RW,Africa,13623302,26338,-2.0,30.0,country
+Saint Barthelemy,saint-barthelemy,BL,Central America and Caribbean,7079,25,18.5,-63.4166667,country
+"Saint Helena, Ascension, and Tristan da Cunha",saint-helena-ascension-and-tristan-da-cunha,SH,Africa,7943,394,-15.95,-5.7,country
+Saint Kitts and Nevis,saint-kitts-and-nevis,KN,Central America and Caribbean,55434,261,17.3333333,-62.75,country
+Saint Lucia,saint-lucia,LC,Central America and Caribbean,168462,616,13.8833333,-60.9666667,country
+Saint Martin,saint-martin,MF,Central America and Caribbean,33093,50,18.0833333,-63.95,country
+Saint Pierre and Miquelon,saint-pierre-and-miquelon,PM,North America,5070,242,46.8333333,-56.3333333,country
+Saint Vincent and the Grenadines,saint-vincent-and-the-grenadines,VC,Central America and Caribbean,100647,389,13.25,-61.2,country
+Samoa,samoa,WS,Australia-Oceania,210223,2831,-13.5833333,-172.3333333,country
+San Marino,san-marino,SM,Europe,35291,61,43.7666667,12.4166667,country
+Sao Tome and Principe,sao-tome-and-principe,ST,Africa,223561,964,1.0,7.0,country
+Saudi Arabia,saudi-arabia,SA,Middle East,36544431,2149690,25.0,45.0,country
+Senegal,senegal,SN,Africa,18847519,196722,14.0,-14.0,country
+Serbia,serbia,RS,Europe,6652212,77474,44.0,21.0,country
+Seychelles,seychelles,SC,Africa,98187,455,-4.5833333,55.6666667,country
+Sierra Leone,sierra-leone,SL,Africa,9331203,71740,8.5,-11.5,country
+Singapore,singapore,SG,East and Southeast Asia,6080545,719,1.3666667,103.8,country
+Sint Maarten,sint-maarten,SX,Central America and Caribbean,46738,34,18.0666667,-63.0666667,country
+Slovakia,slovakia,SK,Europe,5563649,49035,48.6666667,19.5,country
+Slovenia,slovenia,SI,Europe,2097893,20273,46.1166667,14.8166667,country
+Solomon Islands,solomon-islands,SB,Australia-Oceania,738774,28896,-8.0,159.0,country
+Somalia,somalia,SO,Africa,20324160,637657,10.0,49.0,country
+South Africa,south-africa,ZA,Africa,61089926,1219090,-29.0,24.0,country
+South Georgia and South Sandwich Islands,south-georgia-and-south-sandwich-islands,GS,South America,,3903,-54.5,-37.0,country
+South Korea,south-korea,KR,East and Southeast Asia,51486343,99720,37.0,127.5,country
+South Sudan,south-sudan,SS,Africa,12703714,644329,8.0,30.0,country
+Spain,spain,ES,Europe,47280433,505370,40.0,-4.0,country
+Spratly Islands,spratly-islands,XX,East and Southeast Asia,,5,8.6333333,111.9166667,country
+Sri Lanka,sri-lanka,LK,South Asia,22050561,65610,7.0,81.0,country
+Sudan,sudan,SD,Africa,50467278,1861484,15.0,30.0,country
+Suriname,suriname,SR,South America,653605,163820,4.0,-56.0,country
+"Svalbard (sometimes referred to as Spitsbergen, the largest island in the archipelago)",svalbard-sometimes-referred-to-as-spitsbergen-the-largest-island-in-the-archipelago,SJ,Europe,2556,62045,78.0,20.0,country
+Sweden,sweden,SE,Europe,10643745,450295,62.0,15.0,country
+Switzerland,switzerland,CH,Europe,8925741,41277,47.0,8.0,country
+Syria,syria,SY,Middle East,24261882,187437,35.0,38.0,country
+Taiwan,taiwan,TW,East and Southeast Asia,23600776,35980,23.5,121.0,country
+Tajikistan,tajikistan,TJ,Central Asia,10593876,144100,39.0,71.0,country
+Tanzania,tanzania,TZ,Africa,69145464,947300,-6.0,35.0,country
+Thailand,thailand,TH,East and Southeast Asia,70025248,513120,15.0,100.0,country
+The Bahamas,the-bahamas,BS,Central America and Caribbean,415306,13880,24.25,-76.0,country
+The Dominican,the-dominican,DO,Central America and Caribbean,10899292,48670,19.0,-70.6666667,country
+The Gambia,the-gambia,GM,Africa,2523327,11300,13.4666667,-16.5666667,country
+Timor-Leste,timor-leste,TL,East and Southeast Asia,1404785,14874,-8.8333333,125.9166667,country
+Togo,togo,TG,Africa,9143439,56785,8.0,1.1666667,country
+Tokelau,tokelau,TK,Australia-Oceania,2453,12,-9.0,-172.0,country
+Tonga,tonga,TO,Australia-Oceania,104519,747,-20.0,-175.0,country
+Trinidad and Tobago,trinidad-and-tobago,TT,Central America and Caribbean,1410170,5128,11.0,-61.0,country
+Tunisia,tunisia,TN,Africa,11962995,163610,34.0,9.0,country
+Turkey,turkey,TR,Middle East,84625585,783562,39.0,35.0,country
+Turkmenistan,turkmenistan,TM,Central Asia,5744151,488100,40.0,60.0,country
+Turks and Caicos Islands,turks-and-caicos-islands,TC,Central America and Caribbean,60439,948,21.75,-71.5833333,country
+Tuvalu,tuvalu,TV,Australia-Oceania,11824,26,-8.0,178.0,country
+Uganda,uganda,UG,Africa,50863850,241038,1.0,32.0,country
+Ukraine,ukraine,UA,Europe,35661826,603550,49.0,32.0,country
+United Arab Emirates,united-arab-emirates,AE,Middle East,10093593,83600,24.0,54.0,country
+United Kingdom,united-kingdom,GB,Europe,68751311,243610,54.0,-2.0,country
+United States,united-states,US,North America,338016259,9833517,38.0,-97.0,country
+Uruguay,uruguay,UY,South America,3449444,176215,-33.0,-56.0,country
+Uzbekistan,uzbekistan,UZ,Central Asia,37015151,447400,41.0,64.0,country
+Vanuatu,vanuatu,VU,Australia-Oceania,318007,12189,-16.0,167.0,country
+Venezuela,venezuela,VE,South America,31755435,912050,8.0,-66.0,country
+Vietnam,vietnam,VN,East and Southeast Asia,106688169,331210,16.1666667,107.8333333,country
+Virgin Islands,virgin-islands,VI,Central America and Caribbean,103792,1910,18.3333333,-64.8333333,country
+Wake Island,wake-island,UM,Australia-Oceania,,7,19.2833333,166.65,country
+Wallis and Futuna,wallis-and-futuna,WF,Australia-Oceania,15998,142,-13.3,-176.2,country
+West Bank,west-bank,PS,Middle East,3310554,5860,32.0,35.25,country
+Western Sahara,western-sahara,EH,Africa,652271,266000,24.5,-13.0,country
+World,world,XX,World,8057236243,,,,world
+Yemen,yemen,YE,Middle East,34505496,527968,15.0,48.0,country
+Zambia,zambia,ZM,Africa,22021971,752618,-15.0,30.0,country
+Zimbabwe,zimbabwe,ZW,Africa,17472752,390757,-20.0,30.0,country
