@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Middle East Population Map</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  #map { width: 100%; height: 100vh; }
+  .legend {
+    background: white;
+    padding: 12px 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+    line-height: 1.6;
+    font-size: 13px;
+  }
+  .legend h4 { margin: 0 0 8px 0; font-size: 14px; }
+  .legend-item { display: flex; align-items: center; gap: 8px; }
+  .legend-color {
+    width: 20px; height: 14px;
+    border: 1px solid #666;
+    border-radius: 2px;
+    flex-shrink: 0;
+  }
+  .info-box {
+    background: white;
+    padding: 10px 14px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+    font-size: 13px;
+    min-width: 180px;
+  }
+  .info-box h4 { margin: 0 0 4px 0; font-size: 15px; }
+  .info-box p { margin: 2px 0; }
+</style>
+</head>
+<body>
+<div id="map"></div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/shpjs@4.0.4/dist/shp.min.js"></script>
+<script src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
+<script>
+const MIDDLE_EAST_ISO = new Set([
+  'AM','AZ','BH','GE','IR','IQ','IL','JO','KW','LB',
+  'OM','PS','QA','SA','SY','TR','AE','YE'
+]);
+
+const MIDDLE_EAST_CENTER = [29, 44];
+const MIDDLE_EAST_ZOOM = 5;
+
+const POPULATION_BREAKS = [
+  { min: 0,        max: 2e6,   color: '#fee5d9', label: '< 2M' },
+  { min: 2e6,      max: 5e6,   color: '#fcbba1', label: '2M – 5M' },
+  { min: 5e6,      max: 10e6,  color: '#fc9272', label: '5M – 10M' },
+  { min: 10e6,     max: 25e6,  color: '#fb6a4a', label: '10M – 25M' },
+  { min: 25e6,     max: 50e6,  color: '#de2d26', label: '25M – 50M' },
+  { min: 50e6,     max: Infinity, color: '#a50f15', label: '50M+' },
+];
+
+function getColor(pop) {
+  if (pop == null) return '#ccc';
+  for (const b of POPULATION_BREAKS) {
+    if (pop >= b.min && pop < b.max) return b.color;
+  }
+  return '#a50f15';
+}
+
+function formatPop(n) {
+  if (n == null) return 'N/A';
+  if (n >= 1e6) return (n / 1e6).toFixed(1) + 'M';
+  if (n >= 1e3) return (n / 1e3).toFixed(0) + 'K';
+  return n.toLocaleString();
+}
+
+const map = L.map('map', { zoomControl: true }).setView(MIDDLE_EAST_CENTER, MIDDLE_EAST_ZOOM);
+
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png', {
+  attribution: '&copy; OpenStreetMap &copy; CARTO',
+  maxZoom: 10,
+}).addTo(map);
+
+// Label layer on top of polygons
+const labelTiles = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}{r}.png', {
+  maxZoom: 10,
+  pane: 'overlayPane',
+});
+
+// Hover info control
+const info = L.control({ position: 'topright' });
+info.onAdd = function () {
+  this._div = L.DomUtil.create('div', 'info-box');
+  this.update();
+  return this._div;
+};
+info.update = function (props) {
+  if (props) {
+    this._div.innerHTML = `<h4>${props.name}</h4>
+      <p><strong>Population:</strong> ${formatPop(props.population)}</p>
+      <p><strong>Area:</strong> ${props.area ? Number(props.area).toLocaleString() + ' km²' : 'N/A'}</p>`;
+  } else {
+    this._div.innerHTML = '<p style="color:#888">Hover over a country</p>';
+  }
+};
+info.addTo(map);
+
+// Legend
+const legend = L.control({ position: 'bottomright' });
+legend.onAdd = function () {
+  const div = L.DomUtil.create('div', 'legend');
+  div.innerHTML = '<h4>Population</h4>' +
+    POPULATION_BREAKS.map(b =>
+      `<div class="legend-item"><span class="legend-color" style="background:${b.color}"></span>${b.label}</div>`
+    ).join('');
+  return div;
+};
+legend.addTo(map);
+
+// Load data
+Promise.all([
+  shp('data/world-countries-shapefile/World_Countries_Generalized'),
+  fetch('data/world-countries.csv').then(r => r.text()),
+]).then(([geojson, csvText]) => {
+  const csv = Papa.parse(csvText, { header: true, skipEmptyLines: true });
+  const lookup = {};
+  for (const row of csv.data) {
+    lookup[row.iso_code] = row;
+  }
+
+  // Filter to Middle East countries
+  const meFeatures = geojson.features.filter(f => MIDDLE_EAST_ISO.has(f.properties.ISO));
+
+  // Enrich with CSV data
+  for (const f of meFeatures) {
+    const iso = f.properties.ISO;
+    const csvRow = lookup[iso];
+    if (csvRow) {
+      f.properties._pop = parseInt(csvRow.population) || null;
+      f.properties._area = csvRow.area_sq_km;
+      f.properties._name = csvRow.name;
+    } else {
+      f.properties._pop = null;
+      f.properties._area = null;
+      f.properties._name = f.properties.COUNTRY;
+    }
+  }
+
+  const geoLayer = L.geoJSON(meFeatures, {
+    style: function (feature) {
+      return {
+        fillColor: getColor(feature.properties._pop),
+        weight: 1.5,
+        color: '#555',
+        fillOpacity: 0.8,
+      };
+    },
+    onEachFeature: function (feature, layer) {
+      layer.on({
+        mouseover: function (e) {
+          e.target.setStyle({ weight: 3, color: '#222', fillOpacity: 0.95 });
+          e.target.bringToFront();
+          info.update({
+            name: feature.properties._name,
+            population: feature.properties._pop,
+            area: feature.properties._area,
+          });
+        },
+        mouseout: function (e) {
+          geoLayer.resetStyle(e.target);
+          info.update();
+        },
+      });
+    },
+  }).addTo(map);
+
+  labelTiles.addTo(map);
+});
+</script>
+</body>
+</html>
