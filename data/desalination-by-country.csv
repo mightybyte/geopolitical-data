@@ -1,0 +1,23 @@
+iso_code,country,desalination_pct_of_water_supply,notes
+AF,Afghanistan,0,Landlocked; no significant desalination infrastructure
+AM,Armenia,0,Landlocked; relies on rivers and Lake Sevan
+AZ,Azerbaijan,0,Minimal desalination; relies on rivers and groundwater
+BH,Bahrain,59,59% of total water supply; >90% of drinking water (Al Jazeera 2026)
+EG,Egypt,1,~0.35 BCM/yr desalinated of ~60 BCM total; expanding rapidly (Egyptian Streets 2025)
+GE,Georgia,0,Relies on rivers and groundwater; no significant desalination
+IR,Iran,0,~0.2 BCM desalinated of ~100 BCM total withdrawal (Fanack Water)
+IQ,Iraq,0,~0.6 million m3/day capacity; negligible share of total supply (Frontiers 2025)
+IL,Israel,50,~50% of domestic water from five large seawater plants (Fanack Water)
+JO,Jordan,5,~0.3 million m3/day current capacity; major expansion planned (Fanack Water)
+KW,Kuwait,47,47% of 1.7 BCM annual supply from desalination (Al Jazeera 2026)
+LB,Lebanon,0,No significant desalination infrastructure
+OM,Oman,23,23% of 2.2 BCM annual production from desalination (Al Jazeera 2026)
+PK,Pakistan,0,Negligible desalination; relies on Indus river system and groundwater
+PS,Palestine,0,Very small capacity (~600 m3/day)
+QA,Qatar,61,61% of total water supply; >99% of drinking water (Al Jazeera 2026)
+SA,Saudi Arabia,18,18% of total supply; 79% from groundwater (Al Jazeera 2026)
+SY,Syria,0,No significant desalination infrastructure
+TR,Turkey,0,Very small capacity relative to total supply
+TM,Turkmenistan,0,Landlocked; relies on rivers and groundwater
+AE,United Arab Emirates,41,41% of water from desalination; 46% from groundwater (Al Jazeera 2026)
+YE,Yemen,0,Very limited capacity; <0.01 million m3/day (Frontiers 2025)
